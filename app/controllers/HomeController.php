@@ -1,13 +1,13 @@
 <?php
 
-class MainController {
+class HomeController extends Controller {
 
-    public function index() {
-        $user = User::find(1);
+    public function actionIndex($id) {
+        $user = User::find($id);
         Response::render("home", ["name" => $user->name, "age" => $user->age, "email" => $user->email]);
     }
 
-    public function about() {
+    public function actionAbout() {
         echo "About this mvc project";
     }
 
