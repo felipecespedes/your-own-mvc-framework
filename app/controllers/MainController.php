@@ -3,7 +3,7 @@
 class MainController {
 
     public function index() {
-        echo "Hi, welcome to the index page";
+        Response::render("home", ["greeting" => "Welcome to Codigea!"]);
     }
 
     public function about() {
