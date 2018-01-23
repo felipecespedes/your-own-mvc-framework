@@ -5,10 +5,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php if (isset($greeting)) { ?>
-        <h1><?= $greeting ?></h1>
-    <?php } else { ?>
-        <h1>Hello world!</h1>
-    <?php } ?>
+    <p>Hi <strong><?= $name ?></strong>, you are <?= $age ?> years old and your email is <?= $email ?></p>
 </body>
 </html>

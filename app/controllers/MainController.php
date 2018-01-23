@@ -3,7 +3,8 @@
 class MainController {
 
     public function index() {
-        Response::render("home", ["greeting" => "Welcome to Codigea!"]);
+        $user = User::find(1);
+        Response::render("home", ["name" => $user->name, "age" => $user->age, "email" => $user->email]);
     }
 
     public function about() {
