@@ -4,7 +4,7 @@ Educational project on how to create your own MVC framework in PHP
 ## About
 This project is part of a series of video tutorials which you can find on YouTube in [this playlist](https://www.youtube.com/playlist?list=PLm7oxli8T4WuIGNNzOhQwX8Myn04YiWXo) (videos are in Spanish)
 
-It belongs to [Codigea](https://www.youtube.com/channel/UCOg6R-aR1hE6d2HIr4ydoqg) channel
+It belongs to [Codigea](https://www.youtube.com/codigea) channel
 
 ## Authors
 
