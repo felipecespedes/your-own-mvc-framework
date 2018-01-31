@@ -2,9 +2,9 @@
 
 chdir(dirname(__DIR__));
 
-define("SYS_PATH", "lib/");
+define("CORE_PATH", "core/");
 define("APP_PATH", "app/");
 
-require SYS_PATH."init.php";
+require_once CORE_PATH."Autoloader.php";
 
 $app = new App();

@@ -1,5 +1,11 @@
 <?php
 
+namespace app\controllers;
+
+use app\models\User;
+use \Controller;
+use \Response;
+
 class HomeController extends Controller {
 
     public function actionIndex($id) {

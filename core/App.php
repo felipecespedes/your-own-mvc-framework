@@ -6,13 +6,12 @@ class App {
     protected $method = "actionIndex";
     protected $params = [];
 
-
     public function __construct() {
         $url = $this->parseUrl();
 
         $controllerName = ucfirst(strtolower($url[0]))."Controller";
         if (file_exists(APP_PATH."controllers/".$controllerName.".php")) {
-            $this->controller = $controllerName;
+            $this->controller = "app\\controllers\\".$controllerName;
             unset($url[0]);
         }
         require APP_PATH."controllers/".$controllerName.".php";
