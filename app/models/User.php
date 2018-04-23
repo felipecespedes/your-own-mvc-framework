@@ -2,13 +2,10 @@
 
 namespace app\models;
 
-use \Model;
+use Illuminate\Database\Eloquent\Model as Eloquent;
 
-class User extends Model {
+class User extends Eloquent {
 
     protected $table = "user";
 
-    public $name;
-    public $age;
-    public $email;
 }

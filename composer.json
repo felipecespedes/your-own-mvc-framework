@@ -1,0 +1,16 @@
+{
+    "name": "felipecespedes/your-own-mvc-framework",
+    "description": "PHP mini framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe Céspedes",
+            "email": "felipecespedespisso@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "^5.2",
+        "doctrine/dbal": "~2.3"
+    }
+}
